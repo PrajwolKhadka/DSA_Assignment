@@ -3,14 +3,11 @@
  * ---------------------------------
  * This Java Swing-based GUI application allows users to design a network topology.
  * Users can:
- * 1. Left-click to add nodes (red = server, blue = client).
- * 2. Enter values in text fields to manually add edges (connections).
- * 3. Right-click on two nodes to compute and display the shortest path.
+ *add nodes (red = server, blue = client).
  * 
- * The application uses:
- * - A basic adjacency matrix for graph representation.
- * - Dijkstra’s algorithm to find the shortest path.
- * - Interactive GUI with real-time updates.
+ * A basic adjacency matrix for graph representation.
+ * Dijkstra’s algorithm to find the shortest path.
+ *
  * 
  * Developed for a custom network design tool, avoiding pre-built graph libraries.
  */
