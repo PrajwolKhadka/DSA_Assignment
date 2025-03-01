@@ -1,4 +1,4 @@
-// Question No 3 b
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Random;
