@@ -57,12 +57,12 @@ public class KthSmallestProduct {
         int[] returns1 = {2, 5};
         int[] returns2 = {3, 4};
         int k = 2;
-        System.out.println(findKthSmallestProduct(returns1, returns2, k)); // Expected Output: 8
+        System.out.println(findKthSmallestProduct(returns1, returns2, k)); // Output: 8
 
         // Test case 2: Includes negative and zero values
         int[] returns3 = {-4, -2, 0, 3};
         int[] returns4 = {2, 4};
         int k2 = 6;
-        System.out.println(findKthSmallestProduct(returns3, returns4, k2)); // Expected Output: 0
+        System.out.println(findKthSmallestProduct(returns3, returns4, k2)); // Output: 0
     }
 }
