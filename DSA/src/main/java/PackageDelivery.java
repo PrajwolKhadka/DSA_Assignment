@@ -123,14 +123,14 @@ public class PackageDelivery {
     
     public static void main(String[] args) {
         // Test 1
-        int[] packages1 = {1, 0, 0, 0, 0, 1}; // Package locations
+        int[] packages1 = {1, 0, 0, 1, 0, 1}; // Package locations
         int[][] roads1 = {
             {0, 1}, {1, 2}, {2, 3}, {3, 4}, {4, 5} // Road connections
         };
         System.out.println(minRoads(packages1, roads1)); // Expected output: 2
         
         // Test 2
-        int[] packages2 = {0, 0, 0, 1, 1, 0, 0, 1}; // Package locations
+        int[] packages2 = {0, 1, 0, 1, 1, 0, 0, 1}; // Package locations
         int[][] roads2 = {
             {0, 1}, {0, 2}, {1, 3}, {1, 4}, {2, 5}, {5, 6}, {5, 7} // Road connections
         };
