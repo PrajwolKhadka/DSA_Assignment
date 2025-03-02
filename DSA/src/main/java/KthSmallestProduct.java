@@ -54,8 +54,8 @@ public class KthSmallestProduct {
     // Main function to test the implementation
     public static void main(String[] args) {
         // Test case 1: Small arrays
-        int[] returns1 = {2, 5};
-        int[] returns2 = {3, 4};
+        int[] returns1 = {3, 7};
+        int[] returns2 = {5, 8};
         int k = 2;
         System.out.println(findKthSmallestProduct(returns1, returns2, k)); // Output: 8
 
