@@ -57,7 +57,7 @@ public class KthSmallestProduct {
         int[] returns1 = {3, 7};
         int[] returns2 = {5, 8};
         int k = 2;
-        System.out.println(findKthSmallestProduct(returns1, returns2, k)); // Output: 8
+        System.out.println(findKthSmallestProduct(returns1, returns2, k)); // Output: 24
 
         // Test case 2: Includes negative and zero values
         int[] returns3 = {-4, -2, 0, 3};
