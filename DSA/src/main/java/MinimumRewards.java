@@ -48,10 +48,10 @@ public class MinimumRewards {
     
     // Main function to test the implementation
     public static void main(String[] args) {
-        int[] ratings1 = {1, 0, 2};
+        int[] ratings1 = {2, 0, 2};
         System.out.println(minRewards(ratings1)); // Output: 5
         
-        int[] ratings2 = {1, 2, 2};
+        int[] ratings2 = {0, 2, 2};
         System.out.println(minRewards(ratings2)); // Output: 4
     }
 }
