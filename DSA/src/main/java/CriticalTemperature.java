@@ -50,7 +50,7 @@ public class CriticalTemperature {
     public static void main(String[] args) {
         // Test the minMeasurements method with k = 1 and n = 2, and print the result.
         System.out.println(minMeasurements(1, 2));  // Output: 2
-        System.out.println(minMeasurements(2,6)); //Output: 3
+        System.out.println(minMeasurements(4,10)); //Output: 4
         System.out.println(minMeasurements(3,14)); //Output: 4
     }
 }
